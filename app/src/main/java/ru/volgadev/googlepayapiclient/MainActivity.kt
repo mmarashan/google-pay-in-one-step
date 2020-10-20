@@ -1,0 +1,23 @@
+package ru.volgadev.googlepayapiclient
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+
+        buyNowBtn.setOnClickListener {
+
+        }
+    }
+}
+
+data class ShopItem(
+    val name: String,
+    val description: String,
+    val priceCents: String
+)

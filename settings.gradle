@@ -1,0 +1,4 @@
+rootProject.name = "googlepayapiclient"
+
+include ':app',
+        ':pay-lib'
