@@ -1,4 +1,4 @@
-package ru.volgadev.pay_lib.impl
+package ru.volgadev.pay_lib
 
 import android.content.Context
 import com.google.android.gms.wallet.PaymentsClient

@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/item_name"
+        android:id="@+id/itemName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/elements_margin_max"
@@ -18,23 +18,23 @@
         tools:text="Some book" />
 
     <TextView
-        android:id="@+id/item_description"
+        android:id="@+id/itemDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/elements_margin_max"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/item_name"
+        app:layout_constraintTop_toBottomOf="@id/itemName"
         tools:text="Small book about love with Android" />
 
     <TextView
-        android:id="@+id/item_price"
+        android:id="@+id/itemPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/elements_margin_max"
         android:textSize="22sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/item_description"
+        app:layout_constraintTop_toBottomOf="@id/itemDescription"
         tools:text="10$" />
 
     <Button
@@ -44,6 +44,6 @@
         android:layout_margin="@dimen/elements_margin_max"
         android:text="@string/buy_now"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/item_name" />
+        app:layout_constraintTop_toTopOf="@id/itemName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

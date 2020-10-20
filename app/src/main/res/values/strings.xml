@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">googlepayapiclient</string>
+    <string name="app_name">Marker with Google Pay</string>
     <string name="buy_now">Buy now</string>
 </resources>

@@ -1,4 +1,4 @@
-package ru.volgadev.pay_lib.impl
+package ru.volgadev.pay_lib
 
 import android.app.Activity
 import android.content.Context
@@ -13,11 +13,8 @@ import com.google.android.gms.wallet.*
 import kotlinx.android.synthetic.main.activity_checkout.*
 import org.json.JSONException
 import org.json.JSONObject
-import ru.volgadev.pay_lib.MerchantData
-import ru.volgadev.pay_lib.PaymentRequest
-import ru.volgadev.pay_lib.R
 
-internal class PaymentActivity : Activity() {
+class PaymentActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

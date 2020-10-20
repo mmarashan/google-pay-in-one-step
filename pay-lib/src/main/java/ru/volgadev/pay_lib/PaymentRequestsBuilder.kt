@@ -1,11 +1,10 @@
-package ru.volgadev.pay_lib.impl
+package ru.volgadev.pay_lib
 
 import com.google.android.gms.wallet.IsReadyToPayRequest
 import com.google.android.gms.wallet.PaymentDataRequest
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
-import ru.volgadev.pay_lib.MerchantData
 
 internal class PayRequestsManager(
     private val merchantData: MerchantData

@@ -3,17 +3,6 @@ package ru.volgadev.pay_lib
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
-interface PaymentManager {
-
-    fun requestPayment(
-        merchantData: MerchantData,
-        paymentRequest: PaymentRequest,
-        isTest: Boolean = true
-    )
-
-    fun isPayed(): Boolean
-}
-
 /**
  * @param merchantName name encoded as UTF-8. Merchant name is rendered in the payment sheet.
  * @param gateway payment gateway from https://developers.google.com/pay/api?hl=ru#participating-processors
