@@ -28,8 +28,5 @@ For start payment you should
                     isTest
                 )
 ```
-
-![](repo_assets/1.jpg)
-![](repo_assets/2.jpg)
-
-<img src="repo_assets/1.jpg" width="100">
+<img src="repo_assets/1.jpg" width="480">
+<img src="repo_assets/2.jpg" width="480">
