@@ -29,5 +29,7 @@ For start payment you should
                 )
 ```
 
-![](repo_assets/1.jpg | width=100)
-![](repo_assets/2.jpg | width=100)
+![](repo_assets/1.jpg)
+![](repo_assets/2.jpg)
+
+<img src="repo_assets/1.jpg" width="100">
