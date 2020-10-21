@@ -1,10 +1,10 @@
 ## Example with wrapper module (pay-lib) for using Google Pay Api in one-step
 
-This example is an attempt to make a simpler and more refined example of using the [Google Pay API](https://developers.google.com/pay/api/android/guides/tutorial)
+This example is an attempt to make a simple and more refined example of utilization the [Google Pay API](https://developers.google.com/pay/api/android/guides/tutorial)
 than in the [google-pay/android-quickstart](https://github.com/google-pay/android-quickstart) project (unfortunately, a lot of unstructured constants
-and json-objects (that can be encapsulated) can confuse a beginner).
+and json-objects (that can be encapsulated) might confuse a beginner).
 
-This example is primarily suitable for digital purchases when you decide to use your bank's processing.
+This example is suitable for digital purchases when you decide to use your bank's processing.
 For start payment you should
 ```
     /* get this data from your bank */
