@@ -28,5 +28,10 @@ For start payment you should
                     isTest
                 )
 ```
-<img src="repo_assets/1.jpg" width="480">
-<img src="repo_assets/2.jpg" width="480">
+
+<table>
+  <tr>
+    <td><img src="repo_assets/1.jpg" width="360"></td>
+    <td><img src="repo_assets/2.jpg" width="360"></td>
+  </tr>
+</table>
