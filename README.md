@@ -29,5 +29,5 @@ For start payment you should
                 )
 ```
 
-![](repo_assets/1.jpg){:height="50%" width="50%"}
-![](repo_assets/2.jpg){:height="50%" width="50%"}
+![](repo_assets/1.jpg| width=100)
+![](repo_assets/2.jpg| width=100)
