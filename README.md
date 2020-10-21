@@ -1,4 +1,4 @@
-## Wrapper module for using Google Pay Api in one-step
+## Example with wrapper module (pay-lib) for using Google Pay Api in one-step
 
 This example is an attempt to make a simpler and more refined example of using the [Google Pay API](https://developers.google.com/pay/api/android/guides/tutorial)
 than in the [google-pay/android-quickstart](https://github.com/google-pay/android-quickstart) project (unfortunately, a lot of unstructured constants
@@ -29,5 +29,5 @@ For start payment you should
                 )
 ```
 
-![](repo_assets/1.jpg)
-![](repo_assets/2.jpg)
+![](repo_assets/1.jpg){:height="50%" width="50%"}
+![](repo_assets/2.jpg){:height="50%" width="50%"}
